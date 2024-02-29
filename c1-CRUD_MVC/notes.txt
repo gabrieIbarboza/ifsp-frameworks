@@ -1,0 +1,9 @@
+Acessar banco pelo shell (cmd) do Xampp
+# mysql -u root -p
+
+Criar pasta por command
+mkdir nome_da_nova_pasta
+
+Criar backup do banco de dados
+cd xampp\mysql\bin
+mysqldump -u root -p database_name
